@@ -1,0 +1,37 @@
+
+
+```gitignore
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Burp/ZAP temporary files
+*.session
+*.session.json
+
+# Sensitive evidence
+private/
+secrets/
